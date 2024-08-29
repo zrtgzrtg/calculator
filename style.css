@@ -1,0 +1,28 @@
+
+.calculator {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.display {
+    height: 200px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4px;
+}
+.row {
+    display: flex;
+    gap: 4px;
+}
+.uiButton {
+    flex: 1 1 25%;
+}
