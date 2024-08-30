@@ -1,18 +1,17 @@
 
 body {
-    background-color: #c8efff;
     font-family: "Roboto";
 }
 .calculator {
-    margin-top: 100px;
-    display:flex;
+    margin-top: 200px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 4px;
 }
 .display {
-    height: 320px;
+    height: 210px;
     width: 600px;
     display: flex;
     justify-content: center;
@@ -21,6 +20,19 @@ body {
     opacity: 80%;
     color: white;
     font-size: 69px;
+}
+.past-display {
+    height: 70px;
+    width: 600px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color:  #070012;
+    opacity: 80%;
+    color: white;
+    font-size: 36px;
+    font-weight: 100;
+    color: lightgrey;
 }
 .button-container {
     width: 600px;
@@ -45,6 +57,7 @@ body {
     font-size: 69px;
     text-align: center;
     font-family: "Roboto";
+    border: 2px solid black;
 }
 #π {
     font-family: Comic;

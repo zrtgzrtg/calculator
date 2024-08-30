@@ -13,9 +13,10 @@
         "7",
         "8",
         "9",
+    ]
+    const legalExecutorButtons = [
         "+",
         "-",
         "*",
         "/",
-        ".",
     ]
