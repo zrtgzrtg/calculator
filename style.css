@@ -59,6 +59,21 @@ body {
     font-family: "Roboto";
     border: 2px solid black;
 }
+.executor-button {
+    background-color: #22003D;
+}
+#\= {
+    background-color: #EDB800 ;
+}
+#\. {
+    background-color: #22003D;
+}
+#CE {
+    background-color: #2E0000;
+}
+#DEL {
+    background-color: #2E0000;
+}
 #π {
     font-family: Comic;
 }

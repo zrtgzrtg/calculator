@@ -6,3 +6,8 @@ arrayButton.forEach(btn => {
     btn.id = (`${btn.textContent}`)
     btn.classList.add("uiButton")
 })
+arrayButton.forEach(btn => {
+    if(legalExecutorButtons.includes(btn.id)) {
+        btn.classList.add("executor-button")
+    }
+})
