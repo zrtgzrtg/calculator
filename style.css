@@ -1,16 +1,25 @@
 
+body {
+    background-color: #c8efff;
+}
 .calculator {
+    margin-top: 100px;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 4px;
 }
 .display {
-    height: 200px;
+    height: 320px;
     width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:  #070012;
+    opacity: 80%;
+    color: white;
+    font-size: 69px;
 }
 .button-container {
     width: 600px;
@@ -25,4 +34,16 @@
 }
 .uiButton {
     flex: 1 1 25%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 4px;
+    border-width: 0px;
+    background-color:  #070012;
+    opacity: 80%;
+    color: white;
+    font-size: 69px;
+    text-align: center;
+}
+.π {
+    font-family: Comic;
 }
